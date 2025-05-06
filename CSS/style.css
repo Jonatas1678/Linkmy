@@ -36,8 +36,8 @@ body {
 .pp {
     background-color: rgb(170, 251, 251);
     margin-left: 6px;
-    min-width: 233px;
-    max-width: 234px;
+    min-width: 263px;
+    max-width: 264px;
     border-radius: 5px;
     padding: 2px;
     display: flex;
