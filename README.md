@@ -48,10 +48,4 @@ Este é um projeto de página web pessoal que apresenta a formação acadêmica 
 
 Desenvolvido por **Jônatas Lima Barbosa** como parte de seu portfólio pessoal.
 
-## 🚀 Publicação no GitHub Pages
-
-1. Faça login no GitHub e acesse o repositório deste projeto.
-2. Vá em **Settings** > **Pages**.
-3. Em "Source", selecione a branch `main` e a pasta raiz (`/`).
-4. Clique em **Save**.
-5. O site estará disponível em `https://<seu-usuario>.github.io/<nome-do-repositorio>/`
+## 🚀 
