@@ -75,6 +75,23 @@ body {
     font-size: 15px;
 }
 
+.pp2l {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 6px;
+    background-color: rgb(170, 251, 251);
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.fiap {
+    width: 70px;
+    height: auto;
+    border-radius: 4px;
+}
+
 .ppp {
     background-color: rgb(170, 251, 251);
     margin-left: 6px;
@@ -166,17 +183,66 @@ body {
     background-color: #f0f0f0;
 }
 
-@media (max-width: 600px) {
-    .pp, .pp2, .ppp {
-        width: 90%;
-        margin: 10px auto;
+@media (max-width: 768px) {
+    .titulo {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .tl {
+        font-size: 18pt;
     }
 
     .ima img {
-        width: 120px;
+        width: 140px;
+    }
+
+    .pp, .pp2, .ppp {
+        max-width: 90%;
+        min-width: auto;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+
+    .foo {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .pp2l {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 90%;
+        margin: 10px auto;
+    }
+
+    .fiap {
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    .ima img {
+        width: 140px;
+    }
+
+    .tl {
+        font-size: 18pt;
+        text-align: center;
     }
 
     .uu {
-        max-width: 30%;
+        max-width: 60px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .menu {
+        left: 10px;
+        width: 90%;
+    }
+
+    .menu a {
+        font-size: 16px;
     }
 }
