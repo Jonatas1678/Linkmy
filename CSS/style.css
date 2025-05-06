@@ -165,3 +165,18 @@ body {
 .menu a:hover {
     background-color: #f0f0f0;
 }
+
+@media (max-width: 600px) {
+    .pp, .pp2, .ppp {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .ima img {
+        width: 120px;
+    }
+
+    .uu {
+        max-width: 30%;
+    }
+}
