@@ -1,12 +1,13 @@
 body {
     background-color: rgb(188, 247, 247);
+    font-family: 'Nunito', sans-serif;
 }
 
 .titulo {
     padding: 15px;
     margin: auto;
     border-radius: 2px 2px 39px 39px;
-    box-shadow: 10px 0.06px 59px rgb(57, 53, 53);
+    box-shadow: 0px 4px 12px rgb(0, 0, 0, 0.2);
     background-color: rgb(145, 254, 254);
     text-align: center;
     display: flex;
@@ -15,8 +16,7 @@ body {
 
 .tl {
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20pt;
+    font-size: clamp(1.2rem, 3vw, 2rem);
     font-family: 'Prata', serif;
     margin: 0;
 }
@@ -30,14 +30,17 @@ body {
 .ima img {
     border-radius: 50%;
     width: 198px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
     box-shadow: 2px 7px 99px rgb(57, 53, 53);
 }
 
 .pp {
     background-color: rgb(170, 251, 251);
-    margin-left: 6px;
-    min-width: 263px;
-    max-width: 254px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
     border-radius: 5px;
     padding: 2px;
     display: flex;
@@ -54,14 +57,14 @@ body {
 
 .p0 {
     font-size: 18px;
-    color: #444;
+    color: #222;
     font-weight: 500;
     margin: 5px 15px;
 }
 
 .p1 {
     font-size: 16px;
-    color: #444;
+    color: #222;
     margin: 0;
     font-family: 'Nunito', sans-serif;
 }
@@ -84,11 +87,11 @@ body {
 
 .pp2 {
     background-color: rgb(170, 251, 251);
-    margin-left: 6px;
-    min-width: 300px;
-    max-width: 303px;
+    width: 100%;
+    max-width: 300px;
     border-radius: 5px;
     padding: 2px;
+    margin: 10px auto;
     display: flex;
     position: relative;
     font-style: normal;
@@ -101,7 +104,6 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
     flex-direction: row;
     align-items: flex-start;
-    font-family: 'Nunito', sans-serif;
     font-size: 15px;
 }
 
@@ -134,10 +136,10 @@ body {
 
 .pppl, .ppl {
     background-color: rgb(170, 251, 251);
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 800px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -152,9 +154,9 @@ body {
 
 .ppp {
     background-color: rgb(170, 251, 251);
-    margin-left: 6px;
-    min-width: 204px;
-    max-width: 205px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
     border-radius: 5px;
     padding: 2px;
     display: flex;
@@ -222,14 +224,16 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu a {
-    display: block;
+    display: flex;
     padding: 10px 20px;
     text-decoration: none;
     color: #333;
     border-bottom: 1px solid #ddd;
+    flex-direction: column;
 }
 
 .menu a:last-child {
@@ -251,7 +255,9 @@ body {
     }
 
     .ima img {
-        width: 140px;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
     }
 
     .pp, .pp2, .ppp {
@@ -288,10 +294,6 @@ body {
     .fiap {
         width: 100px;
         margin-top: 10px;
-    }
-
-    .ima img {
-        width: 140px;
     }
 
     .tl {
