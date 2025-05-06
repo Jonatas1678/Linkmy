@@ -52,6 +52,36 @@ body {
     align-items: flex-start;
 }
 
+.p0 {
+    font-size: 18px;
+    color: #444;
+    font-weight: 500;
+    margin: 5px 15px;
+}
+
+.p1 {
+    font-size: 16px;
+    color: #444;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.p9 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 15px 10px;
+    color: #333;
+    font-family: 'Prata', serif;
+}
+
+.p44 {
+    font-size: 22pt;
+    text-align: center;
+    font-family: 'Prata', serif;
+    color: #333;
+    margin-top: 20px;
+}
+
 .pp2 {
     background-color: rgb(170, 251, 251);
     margin-left: 6px;
@@ -84,6 +114,34 @@ body {
     padding: 5px;
     border-radius: 5px;
     max-width: 300px;
+}
+
+.pp11 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin: 5px 15px 10px;
+}
+
+.pp27 {
+    background-color: rgb(170, 251, 251);
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pppl, .ppl {
+    background-color: rgb(170, 251, 251);
+    margin: 10px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .fiap {
@@ -138,7 +196,6 @@ body {
     align-items: flex-start;
     position: relative;
 }
-
 
 .menu-hamburguer {
     position: absolute;
@@ -202,6 +259,17 @@ body {
         min-width: auto;
         margin: 10px auto;
         flex-direction: column;
+    }
+
+    .p44 {
+        font-size: 18pt;
+        margin-top: 15px;
+    }
+
+    .pppl, .ppl {
+        max-width: 90%;
+        padding: 8px;
+        font-size: 15px;
     }
 
     .foo {
