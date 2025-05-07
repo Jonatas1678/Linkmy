@@ -147,7 +147,8 @@ body {
 }
 
 .fiap {
-    width: 70px;
+    width: 80px;
+    margin-left: 10px;
     height: auto;
     border-radius: 4px;
 }
@@ -293,7 +294,7 @@ body {
 
     .fiap {
         width: 100px;
-        margin-top: 10px;
+        margin: 10px auto;
     }
 
     .tl {
