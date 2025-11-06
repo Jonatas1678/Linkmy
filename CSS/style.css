@@ -307,10 +307,13 @@ body {
     }
 
     .pppl, .ppl {
-        max-width: 90%;
-        padding: 8px;
+        max-width: 94%;
+        padding: 20px;
         font-size: 17px;
-        font-family: "Momo Signature", cursive;
+    }
+
+    .pp27 {
+        max-width: 96%;        
     }
 
     .foo {
