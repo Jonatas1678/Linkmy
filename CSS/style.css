@@ -1,14 +1,17 @@
 body {
     background-color: rgb(188, 247, 247);
-    font-family: 'Nunito', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .titulo {
     padding: 15px;
     margin: auto;
-    border-radius: 2px 2px 39px 39px;
-    box-shadow: 0px 4px 12px rgb(0, 0, 0, 0.2);
-    background-color: rgb(145, 254, 254);
+    border-radius: 2px 2px 49px 39px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: rgb(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(15px);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -17,7 +20,7 @@ body {
 .tl {
     text-align: center;
     font-size: clamp(1.2rem, 3vw, 2rem);
-    font-family: 'Prata', serif;
+    font-family: "Momo Signature", cursive;
     margin: 0;
 }
 
@@ -74,13 +77,13 @@ body {
     font-weight: bold;
     margin: 20px 15px 10px;
     color: #333;
-    font-family: 'Prata', serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .p44 {
-    font-size: 22pt;
+    font-size: 27pt;
     text-align: center;
-    font-family: 'Prata', serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     color: #333;
     margin-top: 20px;
 }
@@ -126,24 +129,31 @@ body {
 }
 
 .pp27 {
-    background-color: rgb(170, 251, 251);
+    background-color: rgba(255, 255, 255, 0.2);
     margin: 15px auto;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     max-width: 800px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 }
 
 .pppl, .ppl {
-    background-color: rgb(170, 251, 251);
+    background-color: rgb(255, 255, 255 , 0.5);
     margin: 20px auto;
     max-width: 800px;
-    border-radius: 5px;
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
     padding: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
 }
 
 .fiap {
@@ -178,7 +188,11 @@ body {
 }
 
 .foo {
-    background-color: rgb(145, 254, 254);
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     margin-top: 5px;
     min-width: 100%;
     text-align: center;
@@ -198,6 +212,7 @@ body {
     flex-direction: row;
     align-items: flex-start;
     position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .menu-hamburguer {
@@ -219,22 +234,23 @@ body {
 .menu {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 66px;
     left: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 15px;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
 }
 
 .menu a {
     display: flex;
-    padding: 10px 20px;
+    padding: 9px 19px;
     text-decoration: none;
     color: #333;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1)
 }
 
 .menu a:last-child {
@@ -242,7 +258,7 @@ body {
 }
 
 .menu a:hover {
-    background-color: #f0f0f0;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 @media (max-width: 768px) {
@@ -276,7 +292,8 @@ body {
     .pppl, .ppl {
         max-width: 90%;
         padding: 8px;
-        font-size: 15px;
+        font-size: 17px;
+        font-family: "Momo Signature", cursive;
     }
 
     .foo {
