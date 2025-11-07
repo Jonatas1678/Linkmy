@@ -21,7 +21,6 @@ body {
 .tl {
     text-align: center;
     font-size: clamp(1.2rem, 3vw, 2rem);
-    font-family: "Momo Signature", cursive;
     margin: 0;
 }
 
