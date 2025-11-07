@@ -6,16 +6,16 @@ Este é um projeto de página web pessoal que apresenta a formação acadêmica 
 ## 🧠 Funcionalidades
 
 - Menu hamburguer responsivo para navegação.
-- Seção de **formação acadêmica** com período do curso e logo da instituição.
 - Integração com **LinkedIn** e **GitHub**.
-- Estilização customizada com fontes do Google Fonts (Prata).
+- Estilização customizada com fontes do Google Fonts.
 - Estrutura modular com CSS externo e script em JavaScript.
 
 ## 📁 Estrutura de Pastas
 
 ```
 .
-├── index.html               # Página principal (ex: formação acadêmica)
+├── index.html               # Página principal (home)
+├── formacao-academica.html  # Formação acadêmica (link no menu)
 ├── experiencias.html        # Experiências profissionais (link no menu)
 ├── competencias.html        # Competências e habilidades (link no menu)
 ├── CSS/
@@ -24,10 +24,14 @@ Este é um projeto de página web pessoal que apresenta a formação acadêmica 
 ├── JS/
 │   └── script.js            # Script para o menu hamburguer
 ├── images/
-│   ├── 1662685909862.jpeg   # Foto de perfil
+│   ├── 67673863.jpeg        # Foto de perfil
 │   ├── FIAP.png             # Logo da instituição de ensino
 │   ├── 25231.png            # Ícone do GitHub
-│   └── AAYQAQSO...png       # Ícone do LinkedIn
+│   ├── AAYQAQSO...png       # Ícone do LinkedIn
+│   ├── alura-logo.png       # Ícone da Alura
+│   ├── FIAP.png             # Ícone da FIAP
+│   ├── Logo-Inatel.png      # Ícone da Inatel
+│   └── scrumstudy.svg       # Ícone da Scrumstudy
 └── README.md                # Arquivo com informações do projeto
 ```
 
